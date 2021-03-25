@@ -1,1 +1,1 @@
-# KEO-wallet-landing-page
+# KEO-landing-page-project
