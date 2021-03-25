@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.header-container {
+  background: #fff;
+  padding: 10px 0 40px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.nav-bar {
+  display: flex;
+  width: 85%;
+  z-index: 10;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #374988;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #374988;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.get-btn button {
+  color: #fafafa;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 3;
+  background: #374988;
+  border: 0px;
+  border-radius: 4px;
+  padding: 6px 20px;
+}
+
+.header-content {
+  display: flex;
+  width: 85%;
+  margin: 40px auto 20px;
+  align-items: center;
+  z-index: 10;
+}
+.left {
+  width: 45%;
+  margin-right: 20%;
+}
+
+.left p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 40px 0 25px;
+}
+
+.left h1 {
+  color: #374988;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 64px;
+}
+
+.app-store-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.apple-store {
+  margin-right: 15px;
+  height: 68px;
+  width: 45%;
+  cursor: pointer;
+}
+
+.google-store {
+  margin-right: 15px;
+  height: 104px;
+  width: 45%;
+  cursor: pointer;
+}
+
+.bg-eclipse-top {
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.bg-eclipse-bottom {
+  bottom: 0;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+}
