@@ -445,6 +445,7 @@ body {
   .header-content {
     width: 80%;
     flex-direction: column-reverse;
+    text-align: center;
     margin: 40px auto 20px;
   }
 
