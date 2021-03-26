@@ -13,6 +13,9 @@ body {
   height: 100%;
 }
 
+/* ****************************** */
+/* Header Styling */
+/* ******************************* */
 .header-container {
   padding: 10px 0 40px;
   width: 100%;
@@ -95,19 +98,17 @@ body {
 }
 
 .app-store-btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
 .apple-store {
-  margin-right: 15px;
   height: 68px;
   width: 45%;
   cursor: pointer;
 }
 
 .google-store {
-  margin-right: 15px;
   height: 104px;
   width: 45%;
   cursor: pointer;
@@ -127,6 +128,7 @@ body {
   left: 0;
 }
 
+/* Nedia Query for Medium Scrrens (Tablet & IPad) */
 @media screen and (max-width: 768px) {
   .header-container {
     padding: 10px 0 40px;
@@ -193,6 +195,8 @@ body {
     width: 15%;
   }
 }
+
+/* Media Query for small screens (mobile devices) */
 
 @media screen and (max-width: 375px) {
   .responsive-nav {
@@ -277,3 +281,193 @@ body {
     width: 45%;
   }
 }
+/* End of Header Section Styles */
+
+/* Styling for Footer Section */
+
+footer {
+  margin: auto;
+  width: 95%;
+  position: relative;
+}
+/* The Three phones at the footer section */
+.mockup-phones {
+  position: relative;
+  top: -200px; /*To move the mockups outside the footer*/
+  width: 99%;
+  height: 500px;
+  margin: 0 auto -170px; /*The negative bottom margin is to reduce the margin between the mockups and the heading beneath*/
+  overflow: hidden; /*To give the cutting effect to the phones*/
+}
+.mockup-phones img {
+  position: relative;
+  height: 100%;
+  bottom: -70px;
+  z-index: 3; /* To make the center phone on-top the other two phone*/
+}
+
+#felllo {
+  bottom: -120px;
+  right: -10px;
+  margin-right: -50px;
+  z-index: 1;
+}
+
+#felllo-2 {
+  bottom: -120px;
+  left: -10px;
+  margin-left: -50px;
+  z-index: 1;
+}
+
+.footer-up {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  padding-bottom: 40px;
+  background: #374988;
+  background-image: url(img/Ellipse\ 21.png);
+  /* background-repeat: unset; */
+  background-clip: padding-box;
+  border-radius: 150px 150px 0 0;
+}
+.footer-up h3 {
+  font-size: 48px;
+  line-height: 64px;
+  width: 40%;
+  margin: 15px auto;
+}
+.footer-up h4 {
+  border: dashed 1px white;
+  width: 35%;
+  margin: 20px auto;
+  padding: 10px 5px;
+  font-size: 24px;
+}
+.footer-up p {
+  font-size: 18px;
+}
+.footer-up .app-store-btn {
+  width: 34%;
+  justify-content: space-around;
+  margin: auto;
+}
+.footer-nav {
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  color: #374988;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btm-nav li {
+  display: inline-flex;
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 70px;
+  list-style: none;
+}
+
+.fab {
+  margin: 0 5px;
+  font-size: 24px;
+}
+
+/* Media Query for medium screens */
+
+@media screen and (max-width: 768px) {
+  .mockup-phones {
+    margin: 0 auto -200px;
+    height: 300px;
+  }
+
+  .footer-up {
+    padding-bottom: 30px;
+    border-radius: 100px 100px 0 0;
+  }
+
+  .footer-up h3 {
+    font-size: 32px;
+    line-height: 48px;
+    width: 40%;
+  }
+  .footer-up h4 {
+    width: 40%;
+    font-size: 20px;
+  }
+  .footer-up p {
+    font-size: 14px;
+  }
+
+  .footer-nav {
+    padding: 20px 30px;
+  }
+
+  .footer-logo {
+    font-size: 18px;
+  }
+
+  .btm-nav li {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .fab {
+    margin: 0 5px;
+    font-size: 18px;
+  }
+}
+
+/* Media Query for small screens */
+
+@media screen and (max-width: 375px) {
+  .mockup-phones {
+    margin: 0 auto -150px;
+    top: -150px;
+    height: 200px;
+  }
+
+  .footer-up {
+    padding-bottom: 20px;
+    border-radius: 60px 60px 0 0;
+  }
+
+  .footer-up h3 {
+    font-size: 24px;
+    line-height: 32px;
+    width: 60%;
+  }
+  .footer-up h4 {
+    width: 70%;
+    font-size: 14px;
+  }
+  .footer-up p {
+    font-size: 10px;
+  }
+
+  .footer-nav {
+    padding: 15px 8px;
+  }
+
+  .footer-logo {
+    font-size: 10px;
+  }
+
+  .btm-nav li {
+    font-size: 10px;
+    margin-right: 5px;
+  }
+
+  .fab {
+    margin: 0 5px;
+    font-size: 10px;
+  }
+}
+
+/* ******************************* */
+/* The End of the footer styling */
