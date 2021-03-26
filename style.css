@@ -326,9 +326,6 @@ footer {
   color: white;
   padding-bottom: 40px;
   background: #374988;
-  background-image: url(img/Ellipse\ 21.png);
-  /* background-repeat: unset; */
-  background-clip: padding-box;
   border-radius: 150px 150px 0 0;
 }
 .footer-up h3 {
