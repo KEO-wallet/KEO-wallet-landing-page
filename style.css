@@ -383,7 +383,7 @@ footer {
 @media screen and (max-width: 768px) {
   .mockup-phones {
     margin: 0 auto -200px;
-    height: 300px;
+    height: 400px;
   }
 
   .footer-up {
@@ -402,6 +402,12 @@ footer {
   }
   .footer-up p {
     font-size: 14px;
+  }
+
+  .footer-up .app-store-btn {
+    width: 40%;
+    justify-content: space-around;
+    padding-left: 20px;
   }
 
   .footer-nav {
@@ -429,7 +435,7 @@ footer {
   .mockup-phones {
     margin: 0 auto -150px;
     top: -150px;
-    height: 200px;
+    height: 280px;
   }
 
   .footer-up {
@@ -448,6 +454,12 @@ footer {
   }
   .footer-up p {
     font-size: 10px;
+  }
+
+  .footer-up .app-store-btn {
+    width: 80%;
+    justify-content: space-around;
+    padding-left: 20px;
   }
 
   .footer-nav {
